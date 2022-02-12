@@ -14,6 +14,7 @@ Scanner sc = new Scanner(System.in);
 
        public void checkPalindrome()  {
     	   int r, num = 0, temp;
+	   System.out.println("Enter a number: ");
     	   int no;
     	   no = sc.nextInt();
     	   temp = no;
