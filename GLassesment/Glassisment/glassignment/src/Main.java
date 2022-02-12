@@ -39,7 +39,7 @@ Scanner sc = new Scanner(System.in);
     	   int n;
     	   System.out.println("Enter a number: ");
     	   n = sc.nextInt();
-    	   for(int j=1; j<n ;j++) {
+    	   for(int j=1; j<=n ;j++) {
     		   for (int k=n; k>=j; k--)
     			   System.out.print("*");
     		   System.out.println();
